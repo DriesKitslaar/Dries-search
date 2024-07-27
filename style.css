@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    height: 100%;
 }
 img, picture, video, canvas, svg {
     display: block;
@@ -49,6 +50,9 @@ main.content {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    min-height:100%;
+    margin-bottom: -40px; /* Put negative height of the footer here */
+    padding-bottom: 40px; /* Put height of the footer here. Needed for higher than screen height pages */
 }
 .form-container {
     display: flex;
