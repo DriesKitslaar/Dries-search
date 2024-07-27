@@ -77,6 +77,12 @@ input[type="submit"] {
     font-size: larger;
 }
 footer {
+  display: none;
+}
+
+@media (min-height:500px) {
+  footer {
+    display: block;
     background-color: antiquewhite;
     color: black;
     text-align: center;
@@ -87,4 +93,5 @@ footer {
     width: 100%;
     font-family: chicle;
     font-size: larger;
+}
 }
