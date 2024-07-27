@@ -80,7 +80,7 @@ footer {
   display: none;
 }
 
-@media (min-height:500px) {
+@media (min-height:660px) {
   footer {
     display: block;
     background-color: antiquewhite;
