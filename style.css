@@ -94,3 +94,21 @@ footer {
     font-size: larger;
 }
 }
+
+
+input[type="submit"]:hover {
+  background-color: antiquewhite;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+input[type="submit"]:active {
+  background-color: #e6d7d2;
+  transform: scale(0.95);
+}
+
+input[type="text"]:focus {
+  border-color: #ff9800;
+  box-shadow: 0 0 5px #ff9800;
+  outline: none;
+}

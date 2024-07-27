@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
         function applyConfettiEffect() {
             console.log('Image clicked');
             jsConfetti.addConfetti({
-                emojis: ['🐱']
+                emojis: ['🐱','😸','😹','😻','😼','😽','🙀','😿','😾']
             });
             // Voeg visuele feedback toe
             image.classList.add('clicked');
