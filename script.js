@@ -6,6 +6,12 @@ document.addEventListener('DOMContentLoaded', function () {
         };
     }
 
+    // Controleer of JSConfetti beschikbaar is
+    if (typeof JSConfetti === 'undefined') {
+        console.error('JSConfetti is not defined');
+        return;
+    }
+
     // Maak een nieuwe instance van JSConfetti
     const jsConfetti = new JSConfetti();
 
