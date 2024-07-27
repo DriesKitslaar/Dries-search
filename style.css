@@ -5,6 +5,7 @@
 }
 * {
     margin: 0;
+    padding: 0;
 }
 body {
     line-height: 1.5;
@@ -47,8 +48,30 @@ main.content {
 .input {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     flex-direction: column;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+input[type="text"] {
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    font-family: 'Roboto', sans-serif;
+}
+input[type="submit"] {
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 150px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
 }
 footer {
     background-color: antiquewhite;
@@ -56,4 +79,7 @@ footer {
     text-align: center;
     font-size: 1em;
     padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
